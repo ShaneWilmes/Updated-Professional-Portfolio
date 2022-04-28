@@ -3,11 +3,8 @@ body {
 }
 
 
-section {
-    
+section {    
     background-color: white;
-    border: solid black 1px;
-    
 }
 
 .hero {
@@ -67,6 +64,11 @@ p {
     margin-bottom: 200px;
 }
 
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
 .button {
     width: 200px;
     height: 55px;
@@ -114,6 +116,7 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 80px;
 
 }
 
@@ -131,6 +134,7 @@ p {
    width: 300px; 
    height: 500px;
    border: 1px solid black;
+   box-shadow: 5px 5px 20px rgb(202, 199, 199);
 }
 
 .project-container {
