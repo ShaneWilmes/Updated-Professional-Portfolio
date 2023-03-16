@@ -169,6 +169,46 @@ hr {
    
 }
 
+@media  screen and (max-width: 992px) {
+    #projects {
+        width: 75%;
+        
+    }
+
+    .headshot {
+        width: 55%
+    }
+
+    footer {
+        flex-wrap: wrap;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    #projects {
+        width: 65%;
+    }
+    .headshot {
+        width: 45%
+    }
+    footer {
+        flex-wrap: wrap;
+    }
+}
+
+@media  screen and (max-width: 576px) {
+    #projects {
+        width: 50%;
+    }
+    .headshot {
+        width: 40%
+    }
+    footer {
+        flex-wrap: wrap;
+    }
+}
+
+
 
 
 
